@@ -27,7 +27,6 @@
     /* justify-content: space-between; */
     flex-direction: column;
     align-items: center;
-
     top: 0;
     left: 50%;
     transform: translate(-50%);
@@ -48,8 +47,8 @@ header {
     /* border: 5px solid red; */
     max-width: inherit;
     width: inherit;
-
     background-color: rgba(213, 144, 110, 0.522);
+    backdrop-filter: blur(5px);
     /* margin-bottom: 187px; */
 }
 
@@ -109,8 +108,8 @@ ul {
 
 .div_section1 {
     width: 40%;
-    height: 250px;
-    margin: 283px 585px;
+    /* height: 250px; */
+    margin: 183px auto;
     /* border: 5px solid greenyellow; */
     display: flex;
     flex-direction: column;
@@ -215,7 +214,7 @@ article {
     width: 100%;
     height: 922px;
     margin: 0 auto;
-    border: 5px solid blue;
+    border: 2px solid #402101;
     background-color: #402101;
 }
 
@@ -367,3 +366,88 @@ article {
 
 
 /* Section 4 */
+
+.sec4_sec4 {
+    max-width: inherit;
+    width: inherit;
+    height: 480px;
+    margin-bottom: 160px;
+    /* border: 10px solid blue; */
+    background-image: url("../pics/main2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.sec4_div {
+    width: 25%;
+    /* height: 160px;
+    padding: 160px 717px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px; */
+}
+
+.sec4_sub {
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 55px;
+    color: #FFFFFF;
+}
+
+.sec4_form {
+   
+    width: 100%;
+    border: .5px solid #FFFFFF;
+    border-radius: 10px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+
+
+    height: 56px;
+}
+
+.in_sub{
+    width: 70%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF; 
+    border: none;
+    background-color: transparent;
+}
+
+.p_sub{
+    /* border: 5px solid red; */
+width: 30%;
+/* height: 100%; */
+height: 56px;
+background-color: #FFFFFF;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #402101;
+border: none;
+border-radius: 0px 10px 10px 0px; 
+}
+
+
+
+
