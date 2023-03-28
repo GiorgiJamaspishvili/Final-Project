@@ -286,41 +286,84 @@ article {
     width: 80%;
     /* height: 348px; */
     margin: 160px auto;
-    border: solid 5px red;
-    display: flex;
-    align-items: center;
-}
-
-.lastest_products{
-    width: 100%;
-    margin-left: 24px;
-    margin-left: 24px;
-    /* height: 348px; */
-    display: flex;
-    align-items: center;
-}
-
-
-.prod_title {
-    margin-bottom: 40px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    text-align: center;
-    line-height: 48px;
-    color: #402101;
-}
-
-.sec3_divimg{
-    width: 100%;
+    /* border: solid 5px red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto 25px;
+}
+
+.lastest_prod {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* border: solid 5px red; */
+}
+
+
+.last_pro {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #402101;
+}
+
+.photo_price_sec3_sec3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 5px red; */
+
+}
+
+.photo_price_sec3 {
+    width: 20%;
+    height: 260px;
+    position: relative;
+    display: flex;
+    gap: 60px;
+    /* border: solid 5px rgb(105, 20, 203); */
+}
+
+.main_pr_sec3 {
+    /* width: 100%; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    /* border: solid 5px rgb(13, 212, 92); */
+}
+
+
+.input_price {
+    width: 88px;
+    height: 48px;
+    position: absolute;
+    flex-direction: column;
+    top: 80%;
+    left: 40%;
+    transform: translate(-80%, -40%);
+    /* transform: translate(-50%, -50%); */
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
 
 }
 
 
+.sec3_price_p {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #B53B1B;
+}
 
 
+/* Section 4 */
