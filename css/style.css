@@ -560,11 +560,22 @@ ul {
 
 /* Footer */
 
+footer {
+    max-width: inherit;
+    width: inherit;
+    /* width: 100%; */
+    background-color: #402101;
+    padding: 32px 365px 58px 365px;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
 
-/* .earth {
+
+
+.earth {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -575,8 +586,8 @@ ul {
 
 .div_eartart {
     display: flex;
-    margin: auto 400px;
-    border: 5px solid red;
+    /* margin: auto 400px;
+    border: 5px solid red; */
 }
 
 .artisry {
@@ -587,5 +598,78 @@ ul {
     line-height: 44px;
     color: #D5906E;
 
-} */
+}
 
+.hele {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+.div_privacy {
+    margin-top: 16px;
+    margin-bottom: 43px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+}
+
+.yif {
+    display: flex;
+    gap: 20px;
+    /* border: solid 2px white; */
+}
+
+
+.div_footer_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.tel,
+.mail,
+.map {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.mail{
+    margin-top: 29px;
+    margin-bottom: 34px;
+}
+
+.tel::before{
+    margin-right: 16px;
+    font-weight: 900;
+    content: "\f095";
+    font-family: "Font awesome 6 free";
+}
+
+.mail::before{
+    margin-right: 16px;
+    font-weight: 900;
+    content: "\f0e0";
+    font-family: "Font awesome 6 free";
+}
+
+.map::before{
+    margin-right: 16px;
+    font-weight: 900;
+    content: "\f3c5";
+    font-family: "Font awesome 6 free";
+}
