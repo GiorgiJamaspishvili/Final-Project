@@ -243,7 +243,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .sec2_2img {
@@ -452,6 +452,7 @@ ul {
     /* border: 5px solid red; */
     /* width: 30%; */
     /* height: 100%; */
+    padding: 17px 26px;
     height: 56px;
     background-color: #FFFFFF;
     font-style: normal;
