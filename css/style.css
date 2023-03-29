@@ -61,7 +61,7 @@ ul {
     color: #FFFFFF;
 }
 
-.div_eartart{
+.div_eartart {
     display: flex;
     /* margin: auto 400px; */
     /* border: 5px solid red; */
@@ -110,7 +110,7 @@ ul {
     /* justify-content: space-between; */
     flex-direction: column;
     align-items: center;
-    
+
 
 }
 
@@ -123,7 +123,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 
@@ -172,7 +172,7 @@ ul {
 /* Article */
 
 
-.div_4cards{
+.div_4cards {
     width: 50%;
     margin: 160px auto;
     display: flex;
@@ -180,25 +180,25 @@ ul {
     /* gap: 60px; */
 }
 
-.div_pots{
+.div_pots {
     width: 50%;
     display: flex;
     justify-content: space-around;
     /* border: 5px solid greenyellow; */
 }
 
-.art_img{
+.art_img {
     width: 100%;
     /* border: 5px solid greenyellow; */
 
 }
 
-.fig_4cards{
+.fig_4cards {
     width: 45%;
     /* border: 5px solid greenyellow; */
 }
 
-.caption_4cards{
+.caption_4cards {
     font-family: 'Inter', sans-serif;
     margin-top: 24px;
     text-align: center;
@@ -367,9 +367,9 @@ ul {
 
 
 .sec3_price_p {
-    
+
     margin-top: 15px;
-    
+
 }
 
 
@@ -416,10 +416,10 @@ ul {
 }
 
 .sec4_form {
-   
+
     width: 100%;
     border: .5px solid #FFFFFF;
-    border-radius: 10px;  
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -429,47 +429,163 @@ ul {
     height: 56px;
 }
 
-.in_sub{
+.in_sub {
     width: 70%;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     border: none;
     background-color: transparent;
 }
 
-.div_butt{
+.div_butt {
     width: 30%;
-    border-radius: 0px 10px 10px 0px; 
+    border-radius: 0px 10px 10px 0px;
     height: 56px;
     background-color: #FFFFFF;
 }
 
-.p_sub{
+.p_sub {
     /* border: 5px solid red; */
-/* width: 30%; */
-/* height: 100%; */
-height: 56px;
-background-color: #FFFFFF;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-color: #402101;
-border: none;
-border-radius: 0px 10px 10px 0px; 
+    /* width: 30%; */
+    /* height: 100%; */
+    height: 56px;
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #402101;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
 }
 
 
 
 /* Article 2 */
 
-.art2_what{
-    
+.art2_what {
+    width: 75%;
+    margin: 160px auto;
+    /* border: 5px solid red; */
 }
 
+.h3_what {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 44px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #402101;
+}
+
+.div_community {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px solid red; */
+    margin-bottom: 112px;
+}
+
+.div_asp {
+    width: 30%;
+    background-color: #D5906E4D;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_3com {
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 29px;
+    font-family: 'Inter', sans-serif;
+    color: #B53B1B;
+}
+
+.div_art_p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #402101;
+}
+
+
+.div_quest {
+    width: 100%;
+    /* margin-top: 112px; */
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+
+}
+
+.h4_quest {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 29px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #402101;
+}
+
+.butt_quest {
+    align-items: center;
+    padding: 14px 52px;
+    background: #B53B1B;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+
+}
+
+
+
+/* Footer */
+
+
+
+
+
+/* .earth {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.div_eartart {
+    display: flex;
+    margin: auto 400px;
+    border: 5px solid red;
+}
+
+.artisry {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 44px;
+    color: #D5906E;
+
+} */
 
