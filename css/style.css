@@ -51,7 +51,6 @@ ul {
 }
 
 
-
 .earth {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -336,6 +335,13 @@ ul {
     /* height: 100%; */
     position: relative;
     /* border: solid 5px rgb(105, 20, 203); */
+}
+
+.photo_price_sec3:hover{
+    transition: 1.5s;
+    transform: scale(1.2);
+    /* filter: grayscale(100%); */
+    filter: saturate(500%);
 }
 
 .main_pr_sec3 {
@@ -971,40 +977,47 @@ text-align: center; */
 .contact_section {
     max-width: inherit;
     width: inherit;
-    width: 100%;
+    /* width: 100%; */
     height: 720px;
     margin-bottom: 160px;
-    /* border: 10px solid blue; */
     background-image: url("../pics/contact_main_pic.png");
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
-    display: flex;
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+    padding: 208px 1180px 112px 240px;
+    /* border: 5px solid red; */
 
 }
 
-.form_contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 20px;
-    width: 50%;
-    margin: 200px 1180px 112px 240px;
-    border: 5px solid rgba(255, 255, 255, 0.5);
-    background-color: rgba(64, 33, 1, 0.5);
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
 
+.div_form_contact{
+width: 100%;
+margin-inline: auto;
+border: 5px solid rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+/* border: 5px solid red; */
+/* display: flex; */
 }
+
+
+.form_contact{
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap: 30px;
+/* border: 5px solid red; */
+margin: 30px 24px 30px 24px;
+}
+
+
+
+
 
 .getintouch {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 48px;
     margin-left: 20px;
     color: #FFFFFF;
@@ -1013,14 +1026,14 @@ text-align: center; */
 .div_name_email {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap: 50px;
     /* border: 5px solid red; */
 }
 
 .cont_input {
-    width: 40%;
-    margin-inline: 20px;
+    width: 45%;
+    /* margin-inline: 20px; */
     height: 40px;
     border: 5px solid rgba(255, 255, 255, 0.5);
     background-color: rgba(64, 33, 1, 0.5);
@@ -1034,12 +1047,13 @@ text-align: center; */
 }
 
 .text_area {
-    width: 80%;
-    margin-inline: 20px;
+    width: 100%;
+    /* margin-inline: 20px; */
     /* align-items: center; */
 }
 
 .text_text {
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 0.875rem;
@@ -1053,13 +1067,15 @@ text-align: center; */
 }
 
 .submit_button {
+    /* text-align: center; */
     height: 56px;
-    margin-left: 20px;
-    width: 30%;
+    /* margin-left: 20px; */
+    /* width: 30%; */
     background: #D5906E;
     border-radius: 10px;
     color: white;
     border: none;
+    padding: 20px 20px;
 }
 
 
