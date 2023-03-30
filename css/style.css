@@ -33,6 +33,11 @@ header {
     display: none;
 }
 
+.fa-bars{
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -132,7 +137,7 @@ ul {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 3rem;
     text-align: center;
     color: #FFFFFF;
@@ -243,7 +248,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    /* border: 5px solid red; */
+    border: 5px solid red;
 }
 
 .sec2_2img {
@@ -298,7 +303,7 @@ ul {
     margin-bottom: 40px;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 48px;
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -377,6 +382,10 @@ ul {
 
     margin-top: 15px;
 
+}
+
+.view_more_sec2{
+    display: none;
 }
 
 

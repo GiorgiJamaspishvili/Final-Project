@@ -1,0 +1,115 @@
+@media(max-width:480px) {
+
+    header {
+        padding-right: 200px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+
+    .ewaf {
+        font-size: 1.5rem;
+    }
+
+    .pot_sec1 {
+        font-size: .7rem;
+    }
+
+    .shop_sec1 {
+        width: 60%;
+    }
+
+    .div_4cards {
+        width: 100%;
+
+    }
+
+    .div_pots {
+        align-items: center;
+    }
+
+
+
+
+    .div_pots {
+        width: 100%;
+    }
+
+    .sec2_title {
+        margin-bottom: 30px;
+        /* border: 5px solid red; */
+    }
+
+    .gallery_sec2 {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .sec2_2img {
+        display: none;
+    }
+
+    .sec2_3img {
+        gap: 20px;
+        flex-direction: column;
+
+    }
+
+    .mg3,
+    .mg5 {
+        width: 100%;
+        /* border: 5px solid red; */
+    }
+
+
+
+
+    .view_more_sec2 {
+        background: #B53B1B;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 19px;
+        font-family: 'Inter', sans-serif;
+        color: #FFFFFF;
+        height: 50px;
+        width: 150px;
+        margin: 32px 168px 48px 168px;
+        align-items: center;
+    }
+
+
+
+
+
+    .photo_price_sec3 {
+        width: 90%;
+    }
+
+
+
+    .div_community {
+        flex-direction: column;
+        gap: 20px;
+        /* width: 100%; */
+    }
+
+
+    .div_asp {
+        width: 100%;
+    }
+
+
+    footer {
+        padding: 32px 50px 58px 50px;
+        gap: 30px;
+    }
+
+}
