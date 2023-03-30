@@ -248,7 +248,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .sec2_2img {

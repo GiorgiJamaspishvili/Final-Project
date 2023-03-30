@@ -112,4 +112,59 @@
         gap: 30px;
     }
 
+
+
+    /* Artwork */
+
+
+.art_title{
+    font-size: 1.5rem;
 }
+
+.art_butt{
+    width: 40%;
+}
+
+.div_shop_by{
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.art_all_cat{
+    font-size: 2rem;
+}
+
+
+.div_half_eight{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.div_four_pots{
+    width: 100%;
+}
+
+.and8{
+    display: none;
+}
+
+
+/* Contact */
+
+
+.div_cont_em_add{
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.iframe{
+    width: 100%;
+}
+
+}
+
+
+
+
