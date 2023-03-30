@@ -29,11 +29,25 @@ header {
     z-index: 1;
 }
 
-.fa-bars {
-    display: none;
+li:hover{
+    background-color: rgb(240, 111, 111, 0.7);
+    transition: 1.5s;
+    transform: translate(5px);
+
 }
 
-.fa-bars{
+.fa-bars {
+    display: none;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+/* .fa-bars{
+    
+} */
+
+.fa-circle-xmark{
+    display: none;
     font-size: 2rem;
     color: #FFFFFF;
 }
