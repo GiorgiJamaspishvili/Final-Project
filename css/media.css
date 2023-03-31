@@ -109,4 +109,14 @@
         display: none;
     }
 
+    footer {
+        align-items: center;
+        /* padding: 32px 50px 58px 50px; */
+        gap: 50px;
+    }
+
+    .map{
+        font-size: .9rem;
+    }
+
 }

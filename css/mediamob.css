@@ -123,6 +123,7 @@
 
 
     footer {
+        align-items: center;
         padding: 32px 50px 58px 50px;
         gap: 30px;
     }
@@ -187,6 +188,20 @@
     }
 
 
+
+    .div_form_contact{
+        width: 90%;
+        
+    }
+
+    .div_sub_cont{
+        width: 90%;
+
+    }
+
+    .getintouch{
+        font-size: 2rem;
+    }
 
 
     /* JS Mobile */
