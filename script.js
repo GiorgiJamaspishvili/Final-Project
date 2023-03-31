@@ -5,13 +5,13 @@ let xMark = document.querySelector(".fa-circle-xmark");
 
 burger.addEventListener("click", () => {
     mobMenu.classList.add("diss_app");
-    burger.style.display = "none";
-    xMark.style.display = "block";
+    burger.mediamob.display = "none";
+    xMark.mediamob.display = "block";
 });
 
 xMark.addEventListener("click", () => {
     mobMenu.classList.remove("diss_app");
-    xMark.style.display = "none";
-    burger.style.display = "block";
+    xMark.mediamob.display = "none";
+    burger.mediamob.display = "block";
 });
 

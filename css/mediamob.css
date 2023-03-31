@@ -69,7 +69,17 @@
         /* border: 5px solid red; */
     }
 
+/* .contact_section{
+    background-image: url(../pics/mobcont3.png);
+} */
 
+.mobi_cont_little{
+    display: block;
+}
+
+.contact_main_photo3{
+    display: none;
+}
 
 
     .view_more_sec2 {
@@ -153,6 +163,8 @@
 
 
     /* Contact */
+
+    
 
 
     .div_cont_em_add {
